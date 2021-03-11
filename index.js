@@ -5,7 +5,7 @@ const http = require ('http');
 const home = process.env.HOME;
 
 const options = {
-  host: "HOSTNAME.domain.dot",
+  host: "$HOSTNAME.$DOMAIN",
   path: '/',
   port: 80,
   method: 'POST'
